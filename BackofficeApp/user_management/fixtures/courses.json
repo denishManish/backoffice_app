@@ -1,0 +1,46 @@
+[
+    {
+        "model": "course_management.course",
+        "pk": 1,
+        "fields": {
+          "name": "Курс по Roblox",
+          "min_age": 7,
+          "max_age": 15,
+          "status": "active",
+          "link": "drive.google.com"
+        }
+    },
+    {
+        "model": "course_management.course",
+        "pk": 2,
+        "fields": {
+          "name": "Курс по Pencil Code",
+          "min_age": 8,
+          "max_age": 19,
+          "status": "active",
+          "link": "drive.google.com"
+        }
+    },
+    {
+        "model": "course_management.course",
+        "pk": 3,
+        "fields": {
+          "name": "Курс по Python",
+          "min_age": 10,
+          "max_age": 22,
+          "status": "active",
+          "link": "drive.google.com"
+        }
+    },
+    {
+        "model": "course_management.course",
+        "pk": 4,
+        "fields": {
+          "name": "Курс по JavaScript",
+          "min_age": 12,
+          "max_age": 32,
+          "status": "active",
+          "link": "drive.google.com"
+        }
+    }
+]

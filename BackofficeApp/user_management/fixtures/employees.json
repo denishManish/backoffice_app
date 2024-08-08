@@ -1,0 +1,502 @@
+[
+  {
+    "model": "user_management.user",
+    "pk": 7,
+    "fields": {
+      "email": "teacher11@gmail.com",
+      "first_name": "Алексей",
+      "last_name": "Смирнов",
+      "patronymic": "Иванович",
+      "birthday": "1980-01-01",
+      "phone_number": 79225613421
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 7,
+    "fields": {
+      "bank_account_number": 232342341,
+      "partner": 1
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 8,
+    "fields": {
+      "email": "teacher12@gmail.com",
+      "first_name": "Борис",
+      "last_name": "Иванов",
+      "patronymic": "Петрович",
+      "birthday": "1980-02-01",
+      "phone_number": 79225613422
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 8,
+    "fields": {
+      "bank_account_number": 232342342,
+      "partner": 1
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 9,
+    "fields": {
+      "email": "teacher13@gmail.com",
+      "first_name": "Владимир",
+      "last_name": "Петров",
+      "patronymic": "Александрович",
+      "birthday": "1980-03-01",
+      "phone_number": 79225613423
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 9,
+    "fields": {
+      "bank_account_number": 232342343,
+      "partner": 1
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 10,
+    "fields": {
+      "email": "teacher14@gmail.com",
+      "first_name": "Григорий",
+      "last_name": "Сидоров",
+      "patronymic": "Михайлович",
+      "birthday": "1980-04-01",
+      "phone_number": 79225613424
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 10,
+    "fields": {
+      "bank_account_number": 232342344,
+      "partner": 1
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 11,
+    "fields": {
+      "email": "teacher15@gmail.com",
+      "first_name": "Дмитрий",
+      "last_name": "Кузнецов",
+      "patronymic": "Сергеевич",
+      "birthday": "1980-05-01",
+      "phone_number": 79225613425
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 11,
+    "fields": {
+      "bank_account_number": 232342345,
+      "partner": 1
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 12,
+    "fields": {
+      "email": "teacher21@gmail.com",
+      "first_name": "Евгений",
+      "last_name": "Новиков",
+      "patronymic": "Владимирович",
+      "birthday": "1981-01-01",
+      "phone_number": 79225613426
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 12,
+    "fields": {
+      "bank_account_number": 232342346,
+      "partner": 2
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 13,
+    "fields": {
+      "email": "teacher22@gmail.com",
+      "first_name": "Жан",
+      "last_name": "Морозов",
+      "patronymic": "Егорович",
+      "birthday": "1981-02-01",
+      "phone_number": 79225613427
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 13,
+    "fields": {
+      "bank_account_number": 232342347,
+      "partner": 2
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 14,
+    "fields": {
+      "email": "teacher23@gmail.com",
+      "first_name": "Захар",
+      "last_name": "Соловьев",
+      "patronymic": "Андреевич",
+      "birthday": "1981-03-01",
+      "phone_number": 79225613428
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 14,
+    "fields": {
+      "bank_account_number": 232342348,
+      "partner": 2
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 15,
+    "fields": {
+      "email": "teacher24@gmail.com",
+      "first_name": "Илья",
+      "last_name": "Борисов",
+      "patronymic": "Дмитриевич",
+      "birthday": "1981-04-01",
+      "phone_number": 79225613429
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 15,
+    "fields": {
+      "bank_account_number": 232342349,
+      "partner": 2
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 16,
+    "fields": {
+      "email": "teacher25@gmail.com",
+      "first_name": "Константин",
+      "last_name": "Михайлов",
+      "patronymic": "Васильевич",
+      "birthday": "1981-05-01",
+      "phone_number": 79225613430
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 16,
+    "fields": {
+      "bank_account_number": 232342350,
+      "partner": 2
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 17,
+    "fields": {
+      "email": "teacher31@gmail.com",
+      "first_name": "Леонид",
+      "last_name": "Федоров",
+      "patronymic": "Иванович",
+      "birthday": "1982-01-01",
+      "phone_number": 79225613431
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 17,
+    "fields": {
+      "bank_account_number": 232342351,
+      "partner": 3
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 18,
+    "fields": {
+      "email": "teacher32@gmail.com",
+      "first_name": "Михаил",
+      "last_name": "Волков",
+      "patronymic": "Петрович",
+      "birthday": "1982-02-01",
+      "phone_number": 79225613432
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 18,
+    "fields": {
+      "bank_account_number": 232342352,
+      "partner": 3
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 19,
+    "fields": {
+      "email": "teacher33@gmail.com",
+      "first_name": "Николай",
+      "last_name": "Зайцев",
+      "patronymic": "Александрович",
+      "birthday": "1982-03-01",
+      "phone_number": 79225613433
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 19,
+    "fields": {
+      "bank_account_number": 232342353,
+      "partner": 3
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 20,
+    "fields": {
+      "email": "teacher34@gmail.com",
+      "first_name": "Олег",
+      "last_name": "Беляев",
+      "patronymic": "Михайлович",
+      "birthday": "1982-04-01",
+      "phone_number": 79225613434
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 20,
+    "fields": {
+      "bank_account_number": 232342354,
+      "partner": 3
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 21,
+    "fields": {
+      "email": "teacher35@gmail.com",
+      "first_name": "Павел",
+      "last_name": "Ершов",
+      "patronymic": "Сергеевич",
+      "birthday": "1982-05-01",
+      "phone_number": 79225613435
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 21,
+    "fields": {
+      "bank_account_number": 232342355,
+      "partner": 3
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 22,
+    "fields": {
+      "email": "teacher41@gmail.com",
+      "first_name": "Роман",
+      "last_name": "Карпов",
+      "patronymic": "Владимирович",
+      "birthday": "1983-01-01",
+      "phone_number": 79225613436
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 22,
+    "fields": {
+      "bank_account_number": 232342356,
+      "partner": 4
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 23,
+    "fields": {
+      "email": "teacher42@gmail.com",
+      "first_name": "Сергей",
+      "last_name": "Семенов",
+      "patronymic": "Егорович",
+      "birthday": "1983-02-01",
+      "phone_number": 79225613437
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 23,
+    "fields": {
+      "bank_account_number": 232342357,
+      "partner": 4
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 24,
+    "fields": {
+      "email": "teacher43@gmail.com",
+      "first_name": "Тимофей",
+      "last_name": "Гаврилов",
+      "patronymic": "Андреевич",
+      "birthday": "1983-03-01",
+      "phone_number": 79225613438
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 24,
+    "fields": {
+      "bank_account_number": 232342358,
+      "partner": 4
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 25,
+    "fields": {
+      "email": "teacher44@gmail.com",
+      "first_name": "Ульян",
+      "last_name": "Савельев",
+      "patronymic": "Дмитриевич",
+      "birthday": "1983-04-01",
+      "phone_number": 79225613439
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 25,
+    "fields": {
+      "bank_account_number": 232342359,
+      "partner": 4
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 26,
+    "fields": {
+      "email": "teacher45@gmail.com",
+      "first_name": "Федор",
+      "last_name": "Панфилов",
+      "patronymic": "Васильевич",
+      "birthday": "1983-05-01",
+      "phone_number": 79225613440
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 26,
+    "fields": {
+      "bank_account_number": 232342360,
+      "partner": 4
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 27,
+    "fields": {
+      "email": "teacher51@gmail.com",
+      "first_name": "Харитон",
+      "last_name": "Рябов",
+      "patronymic": "Иванович",
+      "birthday": "1984-01-01",
+      "phone_number": 79225613441
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 27,
+    "fields": {
+      "bank_account_number": 232342361,
+      "partner": 5
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 28,
+    "fields": {
+      "email": "teacher52@gmail.com",
+      "first_name": "Цезарь",
+      "last_name": "Афанасьев",
+      "patronymic": "Петрович",
+      "birthday": "1984-02-01",
+      "phone_number": 79225613442
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 28,
+    "fields": {
+      "bank_account_number": 232342362,
+      "partner": 5
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 29,
+    "fields": {
+      "email": "teacher53@gmail.com",
+      "first_name": "Чеслав",
+      "last_name": "Власов",
+      "patronymic": "Александрович",
+      "birthday": "1984-03-01",
+      "phone_number": 79225613443
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 29,
+    "fields": {
+      "bank_account_number": 232342363,
+      "partner": 5
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 30,
+    "fields": {
+      "email": "teacher54@gmail.com",
+      "first_name": "Шамиль",
+      "last_name": "Кудряшов",
+      "patronymic": "Михайлович",
+      "birthday": "1984-04-01",
+      "phone_number": 79225613444
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 30,
+    "fields": {
+      "bank_account_number": 232342364,
+      "partner": 5
+    }
+  },
+  {
+    "model": "user_management.user",
+    "pk": 31,
+    "fields": {
+      "email": "teacher55@gmail.com",
+      "first_name": "Эдуард",
+      "last_name": "Кондратьев",
+      "patronymic": "Сергеевич",
+      "birthday": "1984-05-01",
+      "phone_number": 79225613445
+    }
+  },
+  {
+    "model": "partner_management.employee",
+    "pk": 31,
+    "fields": {
+      "bank_account_number": 232342365,
+      "partner": 5
+    }
+  }
+]

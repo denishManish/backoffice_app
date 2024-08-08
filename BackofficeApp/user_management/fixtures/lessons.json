@@ -1,0 +1,134 @@
+[
+    {
+        "model": "course_management.lesson",
+        "pk": 1,
+        "fields": {
+            "lesson_number": 1,
+            "name": "Знакомство с Roblox",
+            "course": 1,
+            "presentationURL": "drive.google.com",
+            "description": "Урок знакомства учеников с Roblox"
+        }
+    },
+    {
+        "model": "course_management.lesson",
+        "pk": 2,
+        "fields": {
+            "lesson_number": 2,
+            "name": "Создание моделей в Roblox",
+            "course": 1,
+            "presentationURL": "drive.google.com",
+            "description": "Урок по созданию моделей в Roblox"
+        }
+    },
+    {
+        "model": "course_management.lesson",
+        "pk": 3,
+        "fields": {
+            "lesson_number": 3,
+            "name": "Программирование игр в Roblox",
+            "course": 1,
+            "presentationURL": "drive.google.com",
+            "description": "Урок по программированию игр в Roblox"
+        }
+    },
+    {
+        "model": "course_management.lesson",
+        "pk": 4,
+        "fields": {
+            "lesson_number": 1,
+            "name": "Введение в Pencil Code",
+            "course": 2,
+            "presentationURL": "drive.google.com",
+            "description": "Урок введения в Pencil Code"
+        }
+    },
+    {
+        "model": "course_management.lesson",
+        "pk": 5,
+        "fields": {
+            "lesson_number": 2,
+            "name": "Рисование в Pencil Code",
+            "course": 2,
+            "presentationURL": "drive.google.com",
+            "description": "Урок по рисованию в Pencil Code"
+        }
+    },
+    {
+        "model": "course_management.lesson",
+        "pk": 6,
+        "fields": {
+            "lesson_number": 3,
+            "name": "Программирование анимаций в Pencil Code",
+            "course": 2,
+            "presentationURL": "drive.google.com",
+            "description": "Урок по программированию анимаций в Pencil Code"
+        }
+    },
+    {
+        "model": "course_management.lesson",
+        "pk": 7,
+        "fields": {
+            "lesson_number": 1,
+            "name": "Основы Python",
+            "course": 3,
+            "presentationURL": "drive.google.com",
+            "description": "Урок по основам Python"
+        }
+    },
+    {
+        "model": "course_management.lesson",
+        "pk": 8,
+        "fields": {
+            "lesson_number": 2,
+            "name": "Работа с данными в Python",
+            "course": 3,
+            "presentationURL": "drive.google.com",
+            "description": "Урок по работе с данными в Python"
+        }
+    },
+    {
+        "model": "course_management.lesson",
+        "pk": 9,
+        "fields": {
+            "lesson_number": 3,
+            "name": "Создание приложений на Python",
+            "course": 3,
+            "presentationURL": "drive.google.com",
+            "description": "Урок по созданию приложений на Python"
+        }
+    },
+    {
+        "model": "course_management.lesson",
+        "pk": 10,
+        "fields": {
+            "lesson_number": 1,
+            "name": "Введение в JavaScript",
+            "course": 4,
+            "presentationURL": "drive.google.com",
+            "description": "Урок введения в JavaScript"
+        }
+    },
+    {
+        "model": "course_management.lesson",
+        "pk": 11,
+        "fields": {
+            "lesson_number": 2,
+            "name": "Манипуляция DOM в JavaScript",
+            "course": 4,
+            "presentationURL": "drive.google.com",
+            "description": "Урок по манипуляции DOM в JavaScript"
+        }
+    },
+    {
+        "model": "course_management.lesson",
+        "pk": 12,
+        "fields": {
+            "lesson_number": 3,
+            "name": "Создание интерактивных веб-страниц с JavaScript",
+            "course": 4,
+            "presentationURL": "drive.google.com",
+            "description": "Урок по созданию интерактивных веб-страниц с JavaScript"
+        }
+    }
+]

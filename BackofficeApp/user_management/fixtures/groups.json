@@ -1,0 +1,46 @@
+[
+    {
+        "model": "auth.group",
+        "pk": 1,
+        "fields": {
+          "name": "superuser"
+        }
+    },
+    {
+        "model": "user_management.groupdescription",
+        "pk": 1,
+        "fields": {
+          "description": "Superuser group description"
+        }
+    },
+
+    {
+        "model": "auth.group",
+        "pk": 2,
+        "fields": {
+          "name": "owner"
+        }
+    },
+    {
+        "model": "user_management.groupdescription",
+        "pk": 2,
+        "fields": {
+          "description": "Owner group description"
+        }
+    },
+
+    {
+        "model": "auth.group",
+        "pk": 3,
+        "fields": {
+          "name": "teacher"
+        }
+    },    
+    {
+        "model": "user_management.groupdescription",
+        "pk": 3,
+        "fields": {
+          "description": "employee group description"
+        }
+    }
+]

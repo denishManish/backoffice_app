@@ -1,0 +1,83 @@
+site_name: BackofficeApp 
+
+nav:
+  - Home: md/index.md
+
+  - API: md/api.md
+  - Authentication: md/authentication.md
+  - Database Schema: md/db_schema.md
+
+  - User Management: 
+    - User Management Models: md/user_management/models.md
+    - User Management Serializers: md/user_management/serializers.md
+    - User Management Views: md/user_management/views.md
+
+  - Partner Management: 
+    - Partner Management Models: md/partner_management/models.md
+    - Partner Management Serializers: md/partner_management/serializers.md
+    - Partner Management Views: md/partner_management/views.md
+
+  - Course Management: 
+    - Course Management Models: md/course_management/models.md
+    - Course Management Serializers: md/course_management/serializers.md
+    - Course Management Views: md/course_management/views.md
+
+  - Setup Commands: md/setup_commands.md
+
+theme:
+  name: material
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+    
+  features:
+    #- navigation.tabs
+    #- navigation.tabs.sticky
+    #- navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    #- toc.integrate
+
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            docstring_section_style: table
+            show_symbol_type_heading: true
+            show_symbol_type_toc: true
+            members_order: source
+            #show_if_no_docstring: true
+            #show_labels: true
+      
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+  - meta
+  - toc:
+      permalink: True

@@ -1,0 +1,43 @@
+[
+      {
+        "model": "course_management.category",
+        "pk": 1,
+        "fields": {
+          "name": "Mbyte",
+          "parent": null
+        }
+      },
+      {
+      "model": "course_management.category",
+      "pk": 2,
+      "fields": {
+        "name": "Gbyte",
+        "parent": null
+      }
+      },
+      {
+        "model": "course_management.category",
+        "pk": 3,
+        "fields": {
+          "name": "Tbyte",
+          "parent": null
+        }
+      },
+      {
+        "model": "course_management.category",
+        "pk": 4,
+        "fields": {
+          "name": "Python",
+          "parent": 3
+        }
+      },
+      {
+        "model": "course_management.category",
+        "pk": 5,
+        "fields": {
+          "name": "JavaScript",
+          "parent": 3
+        }
+      }    
+]
+  

@@ -1,0 +1,197 @@
+[
+    {
+      "model": "partner_management.branch",
+      "pk": 1,
+      "fields": {
+        "name": "Филиал 1 Партнера 1",
+        "opening_date": "2022-01-01",
+        "partner": 1,
+        "status": "active",
+        "area": 115,
+        "country": "Росcия",
+        "region": "Республика Татарстан",
+        "city": "Казань",
+        "street": "Восстания",
+        "house": 14,
+        "floor": 1
+      }
+    },
+    {
+      "model": "partner_management.branch",
+      "pk": 2,
+      "fields": {
+        "name": "Филиал 2 Партнера 1",
+        "opening_date": "2023-02-02",
+        "partner": 1,
+        "status": "inactive",
+        "area": 200,
+        "country": "Росcия",
+        "region": "Республика Татарстан",
+        "city": "Казань",
+        "street": "Чистопольская",
+        "house": 52,
+        "floor": 2
+      }
+    },
+    {
+      "model": "partner_management.branch",
+      "pk": 3,
+      "fields": {
+        "name": "Филиал 3 Партнера 1",
+        "opening_date": "2020-12-21",
+        "partner": 1,
+        "status": "active",
+        "area": 200,
+        "country": "Росcия",
+        "region": "Республика Татарстан",
+        "city": "Казань",
+        "street": "Ленная",
+        "house": 122,
+        "floor": 1
+      }
+    },
+
+
+    {
+        "model": "partner_management.branch",
+        "pk": 4,
+        "fields": {
+          "name": "Филиал 1 Партнера 2",
+          "opening_date": "2022-05-21",
+          "partner": 2,
+          "status": "active",
+          "area": 115,
+          "country": "Росcия",
+          "region": "Республика Татарстан",
+          "city": "Казань",
+          "street": "Восстания",
+          "house": 43,
+          "floor": 5
+        }
+      },
+      {
+        "model": "partner_management.branch",
+        "pk": 5,
+        "fields": {
+          "name": "Филиал 2 Партнера 2",
+          "opening_date": "2022-02-02",
+          "partner": 2,
+          "status": "active",
+          "area": 200,
+          "country": "Росcия",
+          "region": "Республика Татарстан",
+          "city": "Казань",
+          "street": "Народная",
+          "house": 52,
+          "floor": 3
+        }
+      },
+      {
+        "model": "partner_management.branch",
+        "pk": 6,
+        "fields": {
+          "name": "Филиал 3 Партнера 2",
+          "opening_date": "2021-12-21",
+          "partner": 2,
+          "status": "inactive",
+          "area": 200,
+          "country": "Росcия",
+          "region": "Республика Татарстан",
+          "city": "Казань",
+          "street": "Кривольная",
+          "house": 42,
+          "floor": 3
+        }
+      },
+
+
+      {
+        "model": "partner_management.branch",
+        "pk": 7,
+        "fields": {
+          "name": "Филиал 1 Партнера 3",
+          "opening_date": "2022-05-21",
+          "partner": 3,
+          "status": "inactive",
+          "area": 115,
+          "country": "Росcия",
+          "region": "Республика Татарстан",
+          "city": "Казань",
+          "street": "Черногорная",
+          "house": 41,
+          "floor": 1
+        }
+      },
+
+
+    {
+      "model": "partner_management.branch",
+      "pk": 8,
+      "fields": {
+        "name": "Филиал 1 Партнера 4",
+        "opening_date": "2020-12-11",
+        "partner": 4,
+        "status": "active",
+        "area": 100,
+        "country": "Россия",
+        "region": "Московская область",
+        "city": "Москва",
+        "street": "Монежная",
+        "house": 83,
+        "floor": 4
+      }
+    },
+    {
+        "model": "partner_management.branch",
+        "pk": 9,
+        "fields": {
+          "name": "Филиал 2 Партнера 4",
+          "opening_date": "2020-12-11",
+          "partner": 4,
+          "status": "active",
+          "area": 100,
+          "country": "Россия",
+          "region": "Московская область",
+          "city": "Москва",
+          "street": "Школьная",
+          "house": 111,
+          "floor": 4
+        }
+      },
+
+
+      {
+        "model": "partner_management.branch",
+        "pk": 10,
+        "fields": {
+          "name": "Филиал 1 Партнера 5",
+          "opening_date": "2020-12-11",
+          "partner": 5,
+          "status": "active",
+          "area": 100,
+          "country": "Россия",
+          "region": "Московская область",
+          "city": "Москва",
+          "street": "Наречная",
+          "house": 121,
+          "floor": 7
+        }
+      },
+      {
+          "model": "partner_management.branch",
+          "pk": 11,
+          "fields": {
+            "name": "Филиал 2 Партнера 5",
+            "opening_date": "2020-12-11",
+            "partner": 5,
+            "status": "inactive",
+            "area": 100,
+            "country": "Россия",
+            "region": "Московская область",
+            "city": "Москва",
+            "street": "Речная",
+            "house": 13,
+            "floor": 1
+          }
+        }
+]

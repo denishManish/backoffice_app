@@ -1,0 +1,101 @@
+[
+    {
+      "model": "user_management.user",
+      "pk": 1,
+      "fields": {
+        "email": "superuser@gmail.com",
+        "is_active": true,
+        "is_staff": true,
+        "is_superuser": true
+      }
+    },
+    {
+      "model": "user_management.user",
+      "pk": 2,
+      "fields": {
+        "email": "owner1@gmail.com",
+        "first_name": "Екатерина",
+        "last_name": "Морова",
+        "patronymic": "Олеговна",
+        "gender": "woman",
+        "birthday": "1990-01-01",
+        "phone_number": 79225612354,
+        "country": "Россия",
+        "region": "Республика Татарстан",
+        "city": "Казань",
+        "street": "Четаева",
+        "house": 13
+      }
+    },
+    {
+        "model": "user_management.user",
+        "pk": 3,
+        "fields": {
+          "email": "owner2@gmail.com",
+          "first_name": "Иван",
+          "last_name": "Малеев",
+          "gender": "man",
+          "birthday": "1992-12-01",
+          "phone_number": 792252342254,
+          "country": "Россия",
+          "region": "Республика Татарстан",
+          "city": "Казань",
+          "street": "Лежная",
+          "house": 42
+        }
+    },
+    {
+        "model": "user_management.user",
+        "pk": 4,
+        "fields": {
+          "email": "owner3@gmail.com",
+          "first_name": "Алексей",
+          "last_name": "Неркин",
+          "gender": "man",
+          "birthday": "1979-01-12",
+          "phone_number": 79342344424,
+          "country": "Россия",
+          "region": "Республика Татарстан",
+          "city": "Казань",
+          "street": "Рорная",
+          "house": 32
+        }
+    },
+    {
+        "model": "user_management.user",
+        "pk": 5,
+        "fields": {
+          "email": "owner4@gmail.com",
+          "first_name": "Марина",
+          "last_name": "Рожная",
+          "gender": "woman",
+          "birthday": "1990-01-01",
+          "phone_number": 79242224424,
+          "country": "Россия",
+          "region": "Московская область",
+          "city": "Москва",
+          "street": "Малогорская",
+          "house": 132,
+          "address_note": "корпус 3, этаж 14"
+        }
+    },
+    {
+        "model": "user_management.user",
+        "pk": 6,
+        "fields": {
+          "email": "owner5@gmail.com",
+          "first_name": "Роман",
+          "last_name": "Кирчук",
+          "gender": "man",
+          "birthday": "1995-09-08",
+          "phone_number": 795623234424,
+          "country": "Россия",
+          "region": "Московская область",
+          "city": "Москва",
+          "street": "Шоссейная",
+          "house": 4322,
+          "address_note": "корпус 3, этаж 14"
+        }
+    }
+]
+  

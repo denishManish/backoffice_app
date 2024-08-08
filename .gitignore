@@ -1,0 +1,12 @@
+venv
+.pytest_cache
+**__pycache__/
+sphinxdocs
+staticfiles
+prod.env
+logs/nginx/*
+logs/gunicorn/*
+!logs/nginx/
+!logs/gunicorn/
+compose.override.yml
+prod_stuff

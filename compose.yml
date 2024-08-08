@@ -1,0 +1,59 @@
+services:
+  django:
+    build: 
+      dockerfile: ./django.Dockerfile
+    command: python manage.py runserver 0.0.0.0:8000 
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./BackofficeApp:/app/BackofficeApp
+    env_file:   
+      - .env
+    depends_on:
+      - postgres
+      - minio
+
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    env_file: 
+      - .env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+  
+  minio:
+    image: minio/minio
+    restart: unless-stopped
+    volumes:
+      - minio_data:/data
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    env_file: 
+      - .env
+    command: server /data --address ":9000" --console-address ":9001"
+
+  minio-setup:
+    build:
+      dockerfile: ./minio-mc.Dockerfile
+    depends_on:
+      - minio
+    volumes:
+      - ./.env:/app/.env:ro
+    entrypoint: /usr/local/bin/minio_setup.sh
+
+  nginx:
+    image: nginx:1.27
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/local.conf:/etc/nginx/conf.d/default.conf
+      - ./BackofficeApp/staticfiles:/app/staticfiles
+    depends_on:
+      - django
+
+volumes:
+  postgres_data:
+  minio_data:

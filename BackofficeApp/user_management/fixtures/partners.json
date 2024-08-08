@@ -1,0 +1,88 @@
+[
+    {
+      "model": "partner_management.partner",
+      "pk": 1,
+      "fields": {
+        "owner": 2,
+        "name": "Партнер 1",
+        "legal_entity": "Юридическое лицо 1",
+        "creating_date": "2020-01-02",
+        "information": "Информация о Партнере 1",
+        "status": "active",
+        "country": "Россия",
+        "region": "Республика Татарстан",
+        "city": "Казань",
+        "street": "Лебедья",
+        "house": 43
+      }
+    },
+    {
+      "model": "partner_management.partner",
+      "pk": 2,
+      "fields": {
+        "owner": 3,
+        "name": "Партнер 2",
+        "legal_entity": "Юридическое лицо 2",
+        "creating_date": "2021-10-02",
+        "information": "Информация о Партнере 2",
+        "status": "active",
+        "country": "Россия",
+        "region": "Республика Татарстан",
+        "city": "Казань",
+        "street": "Волнежская",
+        "house": 813
+      }
+    },
+    {
+      "model": "partner_management.partner",
+      "pk": 3,
+      "fields": {
+        "owner": 4,
+        "name": "Партнер 3",
+        "legal_entity": "Юридическое лицо 3",
+        "creating_date": "2015-03-02",
+        "information": "Информация о Партнере 3",
+        "status": "inactive",
+        "country": "Россия",
+        "region": "Республика Татарстан",
+        "city": "Казань",
+        "street": "Ложная",
+        "house": 124
+      }
+    },
+    {
+      "model": "partner_management.partner",
+      "pk": 4,
+      "fields": {
+        "owner": 5,
+        "name": "Партнер 4",
+        "legal_entity": "Юридическое лицо 4",
+        "creating_date": "2022-10-12",
+        "information": "Информация о Партнере 4",
+        "status": "active",
+        "country": "Россия",
+        "region": "Московская область",
+        "city": "Москва",
+        "street": "Монежная",
+        "house": 83
+      }
+    },
+    {
+      "model": "partner_management.partner",
+      "pk": 5,
+      "fields": {
+        "owner": 6,
+        "name": "Партнер 5",
+        "legal_entity": "Юридическое лицо 5",
+        "creating_date": "2018-10-02",
+        "information": "Информация о Партнере 5",
+        "status": "active",
+        "country": "Россия",
+        "region": "Московская область",
+        "city": "Москва",
+        "street": "Речная",
+        "house": 13
+      }
+    }
+]
+  

@@ -1,0 +1,12 @@
+venv/
+compose.yml
+compose.override.yml
+backend.Dockerfile
+minio-mc.Dockerfile
+.gitignore
+.env
+prod.env
+logs
+docs
+staticfiles
+README.md
